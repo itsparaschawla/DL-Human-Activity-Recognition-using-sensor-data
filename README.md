@@ -8,6 +8,8 @@ This project implements a deep learning-based approach to recognize human activi
 - **Source**: [UCI HAR DATASET](https://www.kaggle.com/datasets/drsaeedmohsen/ucihar-dataset/data)
 - **Description**: Collected from 30 subjects performing daily activities like walking, standing, and sitting while wearing a smartphone on the waist. Data includes 3-axial linear acceleration and angular velocity captured at 50Hz.
 
+> ⚠️ **Note**: Make sure to manually download the dataset from the link above. This notebook was trained on Google Colab by uploading the dataset to Google Drive and mounting it in the Colab runtime. If you're running the code locally, change the dataset path accordingly.
+
 ## 🧠 Model Architecture
 
 - 1D Convolution layers for feature extraction
